@@ -43,10 +43,10 @@
         <div class="login-box">
             <h2>Login</h2>
             <label for="usernametxt">Username</label>
-            <asp:TextBox ID="usernametxt" runat="server" CssClass="input-field"></asp:TextBox>
+            <asp:TextBox ID="usernametxt" runat="server" CssClass="input-field"  placeholder="enter username"></asp:TextBox>
 
             <label for="TextBox1">Password</label>
-            <asp:TextBox ID="passwordtxt" runat="server" CssClass="input-field" TextMode="Password"></asp:TextBox>
+            <asp:TextBox ID="passwordtxt" runat="server" CssClass="input-field" TextMode="Password" placeholder="enter password"></asp:TextBox>
 
             <asp:Button ID="loginbtn" runat="server" Text="Login" CssClass="btn" OnClick="loginValidation"/>
 
