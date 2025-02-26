@@ -67,14 +67,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Cart.aspx" />
     <Content Include="confirmissue.aspx" />
     <Content Include="createaccount.aspx" />
     <Content Include="customersupport.aspx" />
+    <Content Include="Header.ascx" />
     <Content Include="login.aspx" />
+    <Content Include="Navigation.aspx" />
     <Content Include="specificissue.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
     <Compile Include="confirmissue.aspx.cs">
       <DependentUpon>confirmissue.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -96,12 +105,24 @@
     <Compile Include="customersupport.aspx.designer.cs">
       <DependentUpon>customersupport.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation.aspx.cs">
+      <DependentUpon>Navigation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation.aspx.designer.cs">
+      <DependentUpon>Navigation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="specificissue.aspx.cs">
